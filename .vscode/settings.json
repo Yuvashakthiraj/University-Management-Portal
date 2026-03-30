@@ -1,0 +1,13 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar"
+    ],
+    "terminal.integrated.env.windows": {
+        "DB_PASSWORD": "yuva12@"
+    },
+    "terminal.integrated.env.linux": {
+        "DB_PASSWORD": "yuva12@"
+    }
+}

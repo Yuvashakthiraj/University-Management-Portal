@@ -1,0 +1,48 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch GUI (F5)",
+            "request": "launch",
+            "mainClass": "com.university.UiMain",
+            "projectName": "university-management-portal",
+            "classPaths": [
+                "${workspaceFolder}/bin",
+                "${workspaceFolder}/lib/mysql-connector-j-8.3.0.jar"
+            ],
+            "env": {
+                "DB_PASSWORD": "yuva12@"
+            }
+        },
+        {
+            "type": "java",
+            "name": "Launch Console",
+            "request": "launch",
+            "mainClass": "com.university.Main",
+            "projectName": "university-management-portal",
+            "classPaths": [
+                "${workspaceFolder}/bin",
+                "${workspaceFolder}/lib/mysql-connector-j-8.3.0.jar"
+            ],
+            "env": {
+                "DB_PASSWORD": "yuva12@"
+            },
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "Database Verification",
+            "request": "launch",
+            "mainClass": "com.university.DbProofMain",
+            "projectName": "university-management-portal",
+            "classPaths": [
+                "${workspaceFolder}/bin",
+                "${workspaceFolder}/lib/mysql-connector-j-8.3.0.jar"
+            ],
+            "env": {
+                "DB_PASSWORD": "yuva12@"
+            }
+        }
+    ]
+}
